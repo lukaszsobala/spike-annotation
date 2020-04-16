@@ -1,0 +1,883 @@
+LOCUS       YP_009724390_SAR        1273 aa            linear   VRL 17-APR-2020
+DEFINITION  surface glycoprotein [Severe acute respiratory syndrome coronavirus
+            2].
+ACCESSION   YP_009724390
+VERSION     YP_009724390.1
+KEYWORDS    RefSeq.
+SOURCE      Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)
+  ORGANISM  Severe acute respiratory syndrome coronavirus 2
+            Viruses; Riboviria; Nidovirales; Cornidovirineae; Coronaviridae;
+            Orthocoronavirinae; Betacoronavirus; Sarbecovirus.
+REFERENCE   1  (residues 1 to 1273)
+  AUTHORS   Wu,F., Zhao,S., Yu,B., Chen,Y.-M., Wang,W., Hu,Y., Song,Z.-G.,
+            Tao,Z.-W., Tian,J.-H., Pei,Y.-Y., Yuan,M.L., Zhang,Y.-L.,
+            Dai,F.-H., Liu,Y., Wang,Q.-M., Zheng,J.-J., Xu,L., Holmes,E.C. and
+            Zhang,Y.-Z.
+  TITLE     A novel coronavirus associated with a respiratory disease in Wuhan
+            of Hubei province, China
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1273)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JAN-2020) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 1273)
+  AUTHORS   Wu,F., Zhao,S., Yu,B., Chen,Y.-M., Wang,W., Hu,Y., Song,Z.-G.,
+            Tao,Z.-W., Tian,J.-H., Pei,Y.-Y., Yuan,M.L., Zhang,Y.-L.,
+            Dai,F.-H., Liu,Y., Wang,Q.-M., Zheng,J.-J., Xu,L., Holmes,E.C. and
+            Zhang,Y.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JAN-2020) Shanghai Public Health Clinical Center &
+            School of Public Health, Fudan University, Shanghai, China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to QHD43416.
+            Annotation was added using homology to SARSr-CoV NC_004718.3. If
+            you have questions or suggestions, please email us at
+            info@ncbi.nlm.nih.gov and include the accession number
+            NC_045512.##Find all other Wuhan seafood market pneumonia virus
+            (2019-nCov) sequences at
+            https://www.ncbi.nlm.nih.gov/genbank/2019-ncov-seqs/
+            ##Assembly-Data-START## Assembly Method :: Megahit v. V1.1.3
+            Sequencing Technology :: Illumina ##Assembly-Data-END##
+            COMPLETENESS: full length. Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     CDS             1..1273
+                     /gene="S"
+                     /locus_tag="GU280_gp02"
+                     /note="structural protein; spike protein"
+                     /db_xref="GeneID:43740568"
+     misc_feature    1..1273
+                     /note="Geneious type: Protein"
+                     /product="surface glycoprotein"
+     sig_peptide     1..13
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+     source          1..1273
+                     /organism="Severe acute respiratory syndrome coronavirus
+                     2"
+                     /isolate="Wuhan-Hu-1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:2697049"
+                     /country="China"
+                     /collection_date="Dec-2019"
+     misc_feature    2..16
+                     /note="Geneious type: Immunogen"
+     mat_peptide     14..1273
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Spike glycoprotein. /FTId=PRO_0000037208."
+     misc_feature    14..1213
+                     /note="Geneious type: topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Extracellular. {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    14..685
+                     /note="Geneious type: domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Spike protein S1.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000037209."
+     misc_feature    14..294
+                     /note="Geneious type: domain"
+     misc_feature    17
+                     /note="Geneious type: site"
+     misc_feature    33..37
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    40..44
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    46..55
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    61
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    61..68
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    74
+                     /note="Geneious type: site"
+     misc_feature    89..97
+                     /note="Geneious type: Immunogen"
+     misc_feature    90..98
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    103..114
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    116..121
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    122
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    149
+                     /note="Geneious type: site"
+     misc_feature    165
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    184..197
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    234
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    249..261
+                     /note="Geneious type: Immunogen"
+     misc_feature    263..269
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    271..279
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    281..283
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    282
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    285..290
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    293..299
+                     /note="Geneious type: region of interest"
+     misc_feature    295..301
+                     /note="Geneious type: turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    310..312
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    317..327
+                     /note="Geneious type: Immunogen"
+     misc_feature    319..541
+                     /note="Geneious type: domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Receptor-binding domain.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    323
+                     /note="Geneious type: site"
+     misc_feature    325
+                     /note="Geneious type: site"
+     misc_feature    327..531
+                     /note="Geneious type: domain"
+     misc_feature    331..583
+                     /note="Geneious type: domain"
+                     /note="Spike receptor binding domain; pfam09408"
+                     /db_xref="CDD:312790"
+     misc_feature    331
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    333..527
+                     /note="Geneious type: domain"
+     misc_feature    bond(336,361)
+                     /note="Geneious type: bond"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    336
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->A: No effect on human ACE2 binding in vitro.
+                     {ECO:0000269|PubMed:15496474}."
+     misc_feature    339..342
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    343
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    350..352
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    354..358
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    360..362
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    361
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->A: Complete loss of human ACE2 binding in
+                     vitro.{ECO:0000269|PubMed:15496474}."
+     misc_feature    365..367
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    375..381
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    bond(379,432)
+                     /note="Geneious type: bond"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    384..391
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    393..403
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    394..428
+     misc_feature    399..413
+                     /note="Geneious type: Immunogen"
+     misc_feature    402..424
+                     /note="Geneious type: Immunogen"
+     misc_feature    404..409
+                     /note="Geneious type: Immunogen"
+     misc_feature    404..409
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    407..420
+                     /note="Geneious type: Immunogen"
+     misc_feature    407..413
+                     /note="Geneious type: Immunogen"
+     misc_feature    410..413
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3D0G}."
+     misc_feature    order(414,439,449,453,455,486..487,489,493,498,500..502,
+                     505)
+                     /note="Geneious type: binding_site"
+     misc_feature    417..421
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    419..427
+                     /note="Geneious type: Immunogen"
+     misc_feature    427..429
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    431..437
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    437..508
+                     /note="Geneious type: region of interest"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Receptor-binding motif; binding to human ACE2."
+     misc_feature    439..442
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    452..454
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    453..459
+     misc_feature    465
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="E->A: 90% loss of human ACE2 binding in vitro.
+                     {ECO:0000269|PubMed:15496474}."
+     misc_feature    467
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="D->A: Complete loss of human ACE2 binding in
+                     vitro.{ECO:0000269|PubMed:15496474}."
+     misc_feature    473..486
+                     /note="Geneious type: region of interest"
+     misc_feature    bond(480,488)
+                     /note="Geneious type: bond"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     misc_feature    480
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->A: Complete loss of human ACE2 binding in
+                     vitro.{ECO:0000269|PubMed:15496474}."
+     misc_feature    488
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->A: Complete loss of human ACE2 binding in
+                     vitro.{ECO:0000269|PubMed:15496474}."
+     misc_feature    503..505
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    506..515
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    523..525
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2DD8}."
+     misc_feature    537..541
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    550..554
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    565..577
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    579..581
+                     /note="Geneious type: turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    584..588
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    597..599
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    602..604
+                     /note="Geneious type: turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    603
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    610..613
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    614
+                     /note="Geneious type: sequence variant"
+     misc_feature    616
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    618..624
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    625..627
+                     /note="Geneious type: turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    629..631
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    642..645
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    649..652
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    654..660
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    657
+                     /note="Geneious type: site"
+     misc_feature    663..667
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    670..673
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    673
+                     /note="Geneious type: site"
+                     /note="No experimental evidence"
+     misc_feature    678
+                     /note="Geneious type: site"
+                     /note="No experimental evidence"
+     misc_difference 679..684
+     misc_feature    681..686
+     misc_difference 682..685
+     misc_feature    682..685
+                     /note="Geneious type: site"
+     misc_feature    685
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R->S: 40% loss of cell-cell fusion.
+                     {ECO:0000269|PubMed:16519916}."
+     misc_feature    685..686
+                     /note="Geneious type: site"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage. {ECO:0000255|HAMAP-Rule:MF_04099,
+                     ECO:0000269|PubMed:19321428}."
+     misc_feature    686..1273
+                     /note="Geneious type: domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Spike protein S2.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000037210."
+     misc_feature    686
+                     /note="Geneious type: site"
+                     /note="no experimental evidence"
+     misc_feature    693..696
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    700..703
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    709
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    709..716
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    717
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    722..728
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    734..736
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    738..743
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    748..753
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    754..756
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    758..762
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    763..782
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    786..789
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    788..806
+                     /note="Geneious type: region of interest"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Fusion peptide. {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    791..795
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2RUM}."
+     misc_feature    796..799
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRZ}."
+     misc_feature    801
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    803..805
+                     /note="Geneious type: turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    805..816
+                     /note="Geneious type: Immunogen"
+     misc_feature    807..815
+     misc_feature    808..810
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    810..816
+     misc_feature    812..815
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    815
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R->N: Complete loss of trypsin-induced membrane
+                     fusion. {ECO:0000269|PubMed:19321428}."
+     misc_feature    815..816
+                     /note="Geneious type: site"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage. {ECO:0000255|HAMAP-Rule:MF_04099,
+                     ECO:0000269|PubMed:19321428}."
+     mat_peptide     816..1273
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Spike protein S2'.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000444082."
+     misc_feature    817..824
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    831..835
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5XJK}."
+     misc_feature    838..841
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    850..852
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    855..860
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    867..883
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    887..890
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    891..894
+                     /note="Geneious type: region of interest"
+     misc_feature    896..910
+                     /note="Geneious type: Immunogen"
+     misc_feature    898..909
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    916..918
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEZ}."
+     repeat_region   920..970
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Heptad repeat 1.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    933..966
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEQ}."
+     misc_feature    949..993
+                     /note="Geneious type: coil"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    977..981
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    982..987
+                     /note="Geneious type: turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_difference 986..987
+     misc_feature    989..1031
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1032..1034
+                     /note="Geneious type: turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1045..1050
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1053..1056
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1059..1066
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1072..1077
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1074
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1079..1081
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1084..1086
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1088..1092
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1096..1098
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1098
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1101..1104
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    1107..1109
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    1119..1129
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    1132..1134
+                     /note="Geneious type: strand"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    1134
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1158
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     repeat_region   1163..1202
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Heptad repeat 2.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1166..1169
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2FXP}."
+     misc_feature    1173
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1175..1203
+                     /note="Geneious type: coil"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1180..1190
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEQ}."
+     misc_feature    1191..1196
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEQ}."
+     misc_feature    1194
+                     /note="Geneious type: site"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1197..1203
+                     /note="Geneious type: region of interest"
+                     /Function="Could recruit PP2A protein (cell cycle
+                     regulator)"
+     misc_feature    1200..1210
+                     /note="Geneious type: helix"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEQ}."
+     misc_feature    1214..1234
+                     /note="Geneious type: transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical. {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1235..1254
+                     /note="Geneious type: compositionally biased region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cys-rich."
+     misc_feature    1235..1273
+                     /note="Geneious type: topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cytoplasmic. {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1263
+                     /note="Geneious type: sequence variant"
+     misc_feature    1269..1273
+                     /note="Geneious type: region of interest"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="KxHxx. {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Function="Seems to function as an ER retrieval and binds
+                     COPI in vitro"
+     misc_feature    1269
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="K->A: Decrease in Golgi localization, and complete
+                     loss of COPI binding; when associated with A-1253.
+                     {ECO:0000269|PubMed:17166901}."
+     misc_feature    1271
+                     /note="Geneious type: sequence variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="H->A: Decrease in Golgi localization, and complete
+                     loss of COPI binding; when associated with A-1251.
+                     {ECO:0000269|PubMed:17166901}."
+ORIGIN      
+        1 mfvflvllpl vssqcvnltt rtqlppaytn sftrgvyypd kvfrssvlhs tqdlflpffs
+       61 nvtwfhaihv sgtngtkrfd npvlpfndgv yfasteksni irgwifgttl dsktqslliv
+      121 nnatnvvikv cefqfcndpf lgvyyhknnk swmesefrvy ssannctfey vsqpflmdle
+      181 gkqgnfknlr efvfknidgy fkiyskhtpi nlvrdlpqgf saleplvdlp iginitrfqt
+      241 llalhrsylt pgdsssgwta gaaayyvgyl qprtfllkyn engtitdavd caldplsetk
+      301 ctlksftvek giyqtsnfrv qptesivrfp nitnlcpfge vfnatrfasv yawnrkrisn
+      361 cvadysvlyn sasfstfkcy gvsptklndl cftnvyadsf virgdevrqi apgqtgkiad
+      421 ynyklpddft gcviawnsnn ldskvggnyn ylyrlfrksn lkpferdist eiyqagstpc
+      481 ngvegfncyf plqsygfqpt ngvgyqpyrv vvlsfellha patvcgpkks tnlvknkcvn
+      541 fnfngltgtg vltesnkkfl pfqqfgrdia dttdavrdpq tleilditpc sfggvsvitp
+      601 gtntsnqvav lyqdvnctev pvaihadqlt ptwrvystgs nvfqtragcl igaehvnnsy
+      661 ecdipigagi casyqtqtns prrarsvasq siiaytmslg aensvaysnn siaiptnfti
+      721 svtteilpvs mtktsvdctm yicgdstecs nlllqygsfc tqlnraltgi aveqdkntqe
+      781 vfaqvkqiyk tppikdfggf nfsqilpdps kpskrsfied llfnkvtlad agfikqygdc
+      841 lgdiaardli caqkfngltv lpplltdemi aqytsallag titsgwtfga gaalqipfam
+      901 qmayrfngig vtqnvlyenq klianqfnsa igkiqdslss tasalgklqd vvnqnaqaln
+      961 tlvkqlssnf gaissvlndi lsrldkveae vqidrlitgr lqslqtyvtq qliraaeira
+     1021 sanlaatkms ecvlgqskrv dfcgkgyhlm sfpqsaphgv vflhvtyvpa qeknfttapa
+     1081 ichdgkahfp regvfvsngt hwfvtqrnfy epqiittdnt fvsgncdvvi givnntvydp
+     1141 lqpeldsfke eldkyfknht spdvdlgdis ginasvvniq keidrlneva knlneslidl
+     1201 qelgkyeqyi kwpwyiwlgf iagliaivmv timlccmtsc csclkgccsc gscckfdedd
+     1261 sepvlkgvkl hyt
+//
