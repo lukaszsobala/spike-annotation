@@ -1,1 +1,1300 @@
-The data will be here
+LOCUS       YP_009724390_SARS2        1273 aa            linear   VRL 16-APR-2020
+DEFINITION  surface glycoprotein [Severe acute respiratory syndrome coronavirus
+            2].
+ACCESSION   YP_009724390
+VERSION     YP_009724390.1
+KEYWORDS    RefSeq.
+SOURCE      Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)
+  ORGANISM  Severe acute respiratory syndrome coronavirus 2
+            Viruses; Riboviria; Nidovirales; Cornidovirineae; Coronaviridae;
+            Orthocoronavirinae; Betacoronavirus; Sarbecovirus.
+REFERENCE   1  (residues 1 to 1273)
+  AUTHORS   Wu,F., Zhao,S., Yu,B., Chen,Y.-M., Wang,W., Hu,Y., Song,Z.-G.,
+            Tao,Z.-W., Tian,J.-H., Pei,Y.-Y., Yuan,M.L., Zhang,Y.-L.,
+            Dai,F.-H., Liu,Y., Wang,Q.-M., Zheng,J.-J., Xu,L., Holmes,E.C. and
+            Zhang,Y.-Z.
+  TITLE     A novel coronavirus associated with a respiratory disease in Wuhan
+            of Hubei province, China
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1273)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JAN-2020) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 1273)
+  AUTHORS   Wu,F., Zhao,S., Yu,B., Chen,Y.-M., Wang,W., Hu,Y., Song,Z.-G.,
+            Tao,Z.-W., Tian,J.-H., Pei,Y.-Y., Yuan,M.L., Zhang,Y.-L.,
+            Dai,F.-H., Liu,Y., Wang,Q.-M., Zheng,J.-J., Xu,L., Holmes,E.C. and
+            Zhang,Y.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JAN-2020) Shanghai Public Health Clinical Center &
+            School of Public Health, Fudan University, Shanghai, China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to QHD43416.
+            Annotation was added using homology to SARSr-CoV NC_004718.3. If
+            you have questions or suggestions, please email us at
+            info@ncbi.nlm.nih.gov and include the accession number
+            NC_045512.##Find all other Wuhan seafood market pneumonia virus
+            (2019-nCov) sequences at
+            https://www.ncbi.nlm.nih.gov/genbank/2019-ncov-seqs/
+            ##Assembly-Data-START## Assembly Method :: Megahit v. V1.1.3
+            Sequencing Technology :: Illumina ##Assembly-Data-END##
+            COMPLETENESS: full length. Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     CDS             1..1273
+                     /gene="S"
+                     /locus_tag="GU280_gp02"
+                     /coded_by="NC_045512.2:21563..25384"
+                     /note="structural protein; spike protein"
+                     /db_xref="GeneID:43740568"
+     Protein         1..1273
+                     /product="surface glycoprotein"
+                     /calculated_mol_wt=141048
+     gene            1..1273
+                     /gene="S"
+                     /locus_tag=2
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="75.71%"
+     sig_peptide     1..13
+                     /region_name="Signal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="55.38%"
+     source          1..1273
+                     /organism="Severe acute respiratory syndrome coronavirus
+                     2"
+                     /isolate="Wuhan-Hu-1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:2697049"
+                     /country="China"
+                     /collection_date="Dec-2019"
+     Immunogen       2..16
+                     /Source="https://doi.org/10.1101/2020.04.15.040618"
+                     /label="Epitope chosen for multi-epitope vaccine
+                     construct"
+     mat_peptide     14..1273
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Spike glycoprotein. /FTId=PRO_0000037208."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="75.91%"
+     misc_feature    14..1213
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Extracellular. {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="74.81%"
+                     /label="Extracellular"
+                     /note="Geneious type: topological domain"
+     domain          14..685
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Spike protein S1.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000037209."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="62.75%"
+                     /label="S1 subunit"
+     site            17
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          33..37
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="77.78%"
+     strand          40..44
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="80.77%"
+     strand          46..55
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="56.60%"
+     site            61
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          61..68
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="63.27%"
+     site            74
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     Immunogen       89..97
+                     /Source="https://doi.org/10.1101/2020.04.13.039198"
+                     /label="Putative MHC Class I epitope"
+     strand          90..98
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="90.91%"
+     strand          103..114
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="68.57%"
+     strand          116..121
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="76.92%"
+     site            122
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     site            149
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     site            165
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          184..197
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="80.52%"
+     site            234
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     Immunogen       249..261
+                     /Source="https://doi.org/10.1101/2020.04.13.039198"
+                     /label="Putative B-cell vaccine candidate epitope"
+     strand          263..269
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="89.74%"
+     strand          271..279
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="73.47%"
+     strand          281..283
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     site            282
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          285..290
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     misc_feature    293..299
+                     /Source="https://doi.org/10.1101/2020.04.01.020941"
+                     /label="LxxIxEx motif"
+                     /note="Geneious type: region of interest"
+     turn            295..301
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X4S}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="76.92%"
+                     /label="Hydrogen bonded turn Region"
+     strand          310..312
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     Immunogen       317..327
+                     /Source="https://doi.org/10.1101/2020.04.13.039198"
+                     /label="Putative MHC Class II epitope"
+     domain          319..541
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Receptor-binding domain.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="72.47%"
+                     /label="Receptor-binding domain"
+     site            323
+                     /Source="https://doi.org/10.1101/2020.04.01.020966"
+                     /label="O-glycosylation"
+     site            325
+                     /Source="https://doi.org/10.1101/2020.04.01.020966"
+                     /label="O-glycosylation"
+     domain          331..583
+                     /region_name="Spike_rec_bind"
+                     /note="Spike receptor binding domain; pfam09408"
+                     /db_xref="CDD:312790"
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="74.01%"
+     site            331
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     domain          333..527
+                     /Reference="Yuan et al. Science 2020"
+                     /label="RBD"
+     bond            bond(336,361)
+                     /bond_type="disulfide"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     misc_feature    336
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->A: No effect on human ACE2 binding in vitro.
+                     {ECO:0000269|PubMed:15496474}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     helix           339..342
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     site            343
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     helix           350..352
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     strand          354..358
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="64.00%"
+     strand          360..362
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     misc_feature    361
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->A: Complete loss of human ACE2 binding in
+                     vitro.{ECO:0000269|PubMed:15496474}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     helix           365..367
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     strand          375..381
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     bond            bond(379,432)
+                     /bond_type="disulfide"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     helix           384..391
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="82.61%"
+                     /label="Helical region"
+     strand          393..403
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="85.45%"
+     misc_feature    394..428
+                     /Source="https://doi.org/10.1101/2020.04.15.036285"
+                     /label="conserved region"
+     Immunogen       399..413
+                     /Source="https://doi.org/10.1101/2020.04.15.036285"
+                     /label="Predicted T-cell (HTL) epitope"
+     Immunogen       402..424
+                     /Source="https://doi.org/10.1101/2020.04.15.036285"
+                     /label="Top Bepipred epitope"
+     Immunogen       404..409
+                     /Source="https://doi.org/10.1101/2020.04.15.036285"
+                     /label="Top Emini surface accessibility prediction"
+     helix           404..409
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="87.50%"
+                     /label="Helical region"
+     Immunogen       407..420
+                     /Source="https://doi.org/10.1101/2020.04.13.039198"
+                     /label="Putative B-cell vaccine candidate epitope"
+     Immunogen       407..413
+                     /Source="https://doi.org/10.1101/2020.04.15.036285"
+                     /label="Top Kolaskar and Tongaonkar antigenicity"
+     strand          410..413
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3D0G}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     helix           417..421
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="73.08%"
+                     /label="Helical region"
+     Immunogen       419..427
+                     /Source="https://doi.org/10.1101/2020.04.15.036285"
+                     /label="Predicted T-cell (CTL) epitope"
+     strand          427..429
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          431..437
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="95.45%"
+     misc_feature    437..508
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Receptor-binding motif; binding to human ACE2."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="47.58%"
+                     /label="Receptor-binding motif"
+                     /note="Geneious type: region of interest"
+     helix           439..442
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="63.64%"
+                     /label="Helical region"
+     strand          452..454
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="58.82%"
+     misc_feature    453..459
+                     /Source="https://doi.org/10.1101/2020.04.14.041459"
+                     /label="Glycosaminoglycan-binding motif"
+     misc_feature    465
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="E->A: 90% loss of human ACE2 binding in vitro.
+                     {ECO:0000269|PubMed:15496474}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     misc_feature    467
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="D->A: Complete loss of human ACE2 binding in
+                     vitro.{ECO:0000269|PubMed:15496474}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     misc_feature    473..486
+                     /Source="https://doi.org/10.1101/2020.04.05.026450"
+                     /label="insertion in human SARS coronaviruses"
+                     /note="Geneious type: region of interest"
+     bond            bond(480,488)
+                     /bond_type="disulfide"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Bond"
+     misc_feature    480
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->A: Complete loss of human ACE2 binding in
+                     vitro.{ECO:0000269|PubMed:15496474}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     misc_feature    488
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->A: Complete loss of human ACE2 binding in
+                     vitro.{ECO:0000269|PubMed:15496474}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     helix           503..505
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="94.12%"
+                     /label="Helical region"
+     strand          506..515
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2GHV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          523..525
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2DD8}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          537..541
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="86.67%"
+     strand          550..554
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="69.23%"
+     strand          565..577
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="77.61%"
+     turn            579..581
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="76.47%"
+                     /label="Hydrogen bonded turn Region"
+     strand          584..588
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="82.61%"
+     strand          597..599
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     turn            602..604
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="68.75%"
+                     /label="Hydrogen bonded turn Region"
+     site            603
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          610..613
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     misc_feature    614
+                     /D614G="Increasing in frequency"
+                     /label="SNP"
+                     /note="Geneious type: sequence variant"
+     site            616
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     helix           618..624
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="51.43%"
+                     /label="Helical region"
+     turn            625..627
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Hydrogen bonded turn Region"
+     strand          629..631
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          642..645
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          649..652
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          654..660
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="72.50%"
+     site            657
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          663..667
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          670..673
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     site            673
+                     /Source="https://doi.org/10.1038/s41591-020-0820-9"
+                     /note="No experimental evidence"
+                     /label="O-glycosylated?"
+     site            678
+                     /Source="https://doi.org/10.1038/s41591-020-0820-9"
+                     /note="No experimental evidence"
+                     /label="O-glycosylated?"
+     misc_feature    681..686
+                     /Source="https://doi.org/10.1101/2020.04.14.041459"
+                     /label="Glycosaminoglycan-binding motif 2"
+     misc_difference 682..685
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="GSAS in Watanabe/Crispin construct"
+     site            682..685
+                     /label="Furin cleavage site"
+     misc_feature    685
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R->S: 40% loss of cell-cell fusion.
+                     {ECO:0000269|PubMed:16519916}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     site            685..686
+                     /site_type="cleavage"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage. {ECO:0000255|HAMAP-Rule:MF_04099,
+                     ECO:0000269|PubMed:19321428}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     domain          686..1273
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Spike protein S2.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000037210."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="91.93%"
+                     /label="S2 subunit"
+     site            686
+                     /Source="https://doi.org/10.1038/s41591-020-0820-9"
+                     /note="no experimental evidence"
+                     /label="O-glycosylated?"
+     strand          693..696
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="95.00%"
+     strand          700..703
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="59.09%"
+     site            709
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          709..716
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="90.24%"
+     site            717
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          722..728
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="85.71%"
+     strand          734..736
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     helix           738..743
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="85.00%"
+                     /label="Helical region"
+     helix           748..753
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="90.63%"
+                     /label="Helical region"
+     helix           754..756
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     strand          758..762
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     helix           763..782
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="84.69%"
+                     /label="Helical region"
+     strand          786..789
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="81.82%"
+     misc_feature    788..806
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Fusion peptide. {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="77.14%"
+                     /label="Fusion peptide"
+                     /note="Geneious type: region of interest"
+     helix           791..795
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2RUM}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="64.29%"
+                     /label="Helical region"
+     strand          796..799
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRZ}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="60.00%"
+     site            801
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     turn            803..805
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Hydrogen bonded turn Region"
+     Immunogen       805..816
+                     /Source="https://doi.org/10.1101/2020.04.13.039198"
+                     /label="Putative B-cell vaccine epitope"
+     misc_feature    807..815
+                     /Source="PredictProtein"
+                     /label="Disordered"
+     strand          808..810
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="64.71%"
+     misc_feature    810..816
+                     /Source="https://doi.org/10.1101/2020.04.14.041459"
+                     /label="Glycosaminoglycan-binding motif 3"
+     strand          812..815
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="81.82%"
+     misc_feature    815
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R->N: Complete loss of trypsin-induced membrane
+                     fusion. {ECO:0000269|PubMed:19321428}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     site            815..816
+                     /site_type="cleavage"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cleavage. {ECO:0000255|HAMAP-Rule:MF_04099,
+                     ECO:0000269|PubMed:19321428}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     mat_peptide     816..1273
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Spike protein S2'.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000444082."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="94.00%"
+                     /label="S2'"
+     helix           817..824
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     helix           831..835
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5XJK}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="84.62%"
+                     /label="Helical region"
+     strand          838..841
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="84.00%"
+     strand          850..852
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          855..860
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     helix           867..883
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="70.73%"
+                     /label="Helical region"
+     helix           887..890
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     misc_feature    891..894
+                     /Source="https://doi.org/10.1101/2020.04.05.026450"
+                     /label="insertion preceding heptad repeat"
+                     /note="Geneious type: region of interest"
+     Immunogen       896..910
+                     /Source="https://doi.org/10.1101/2020.04.15.040618"
+                     /label="Epitope chosen for multi-epitope vaccine
+                     construct"
+     helix           898..909
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     strand          916..918
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEZ}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     repeat_region   920..970
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Heptad repeat 1.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="83.33%"
+                     /label="Heptad repeat"
+     helix           933..966
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEQ}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="85.71%"
+                     /label="Helical region"
+     coil            949..993
+                     /region_name="Coiled-coil region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     helix           977..981
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     turn            982..987
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Hydrogen bonded turn Region"
+     misc_difference 986..987
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="PP in Watanabe/Crispin construct"
+     helix           989..1031
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     turn            1032..1034
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Hydrogen bonded turn Region"
+     strand          1045..1050
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          1053..1056
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="85.00%"
+     strand          1059..1066
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          1072..1077
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="90.63%"
+     site            1074
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          1079..1081
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          1084..1086
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="76.47%"
+     strand          1088..1092
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="80.65%"
+     strand          1096..1098
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="50.00%"
+     site            1098
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     strand          1101..1104
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:5X58}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="65.52%"
+     strand          1107..1109
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          1119..1129
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     strand          1132..1134
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:6CRV}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="92.86%"
+     site            1134
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     site            1158
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     repeat_region   1163..1202
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Heptad repeat 2.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Heptad repeat"
+     helix           1166..1169
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2FXP}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     site            1173
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     coil            1175..1203
+                     /region_name="Coiled-coil region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+     helix           1180..1190
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEQ}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     helix           1191..1196
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEQ}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     site            1194
+                     /site_type="glycosylation"
+                     /note="N-linked (GlcNAc...) asparagine; by host.
+                     {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /label="N-glycosylation"
+     misc_feature    1197..1203
+                     /Function="Could recruit PP2A protein (cell cycle
+                     regulator)"
+                     /Source="https://doi.org/10.1101/2020.04.01.020941"
+                     /label="LxxIxEx motif"
+                     /note="Geneious type: region of interest"
+     helix           1200..1210
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:2BEQ}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="Helical region"
+     misc_feature    1214..1234
+                     /region_name="Transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical. {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="96.36%"
+                     /label="Transmembrane region misc"
+                     /note="Geneious type: transmembrane region"
+     misc_feature    1235..1254
+                     /region_name="Compositionally biased region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cys-rich."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="93.43%"
+                     /label="Cys-rich"
+                     /note="Geneious type: compositionally biased region"
+     misc_feature    1235..1273
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cytoplasmic. {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="96.23%"
+                     /label="Cytoplasmic"
+                     /note="Geneious type: topological domain"
+     misc_feature    1263
+                     /P1263L="quite common"
+                     /label="SNP"
+                     /note="Geneious type: sequence variant"
+     misc_feature    1269..1273
+                     /region_name="Short sequence motif of biological interest"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="KxHxx. {ECO:0000255|HAMAP-Rule:MF_04099}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /Function="Seems to function as an ER retrieval and binds
+                     COPI in vitro"
+                     /label="KxHxx motif"
+                     /note="Geneious type: region of interest"
+     misc_feature    1269
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="K->A: Decrease in Golgi localization, and complete
+                     loss of COPI binding; when associated with A-1253.
+                     {ECO:0000269|PubMed:17166901}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+     misc_feature    1271
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="H->A: Decrease in Golgi localization, and complete
+                     loss of COPI binding; when associated with A-1251.
+                     {ECO:0000269|PubMed:17166901}."
+                     /Transferred_From="SPIKE_CVHSA SARS"
+                     /Transferred_Similarity="100.00%"
+                     /label="misc"
+                     /note="Geneious type: sequence variant"
+ORIGIN      
+        1 mfvflvllpl vssqcvnltt rtqlppaytn sftrgvyypd kvfrssvlhs tqdlflpffs
+       61 nvtwfhaihv sgtngtkrfd npvlpfndgv yfasteksni irgwifgttl dsktqslliv
+      121 nnatnvvikv cefqfcndpf lgvyyhknnk swmesefrvy ssannctfey vsqpflmdle
+      181 gkqgnfknlr efvfknidgy fkiyskhtpi nlvrdlpqgf saleplvdlp iginitrfqt
+      241 llalhrsylt pgdsssgwta gaaayyvgyl qprtfllkyn engtitdavd caldplsetk
+      301 ctlksftvek giyqtsnfrv qptesivrfp nitnlcpfge vfnatrfasv yawnrkrisn
+      361 cvadysvlyn sasfstfkcy gvsptklndl cftnvyadsf virgdevrqi apgqtgkiad
+      421 ynyklpddft gcviawnsnn ldskvggnyn ylyrlfrksn lkpferdist eiyqagstpc
+      481 ngvegfncyf plqsygfqpt ngvgyqpyrv vvlsfellha patvcgpkks tnlvknkcvn
+      541 fnfngltgtg vltesnkkfl pfqqfgrdia dttdavrdpq tleilditpc sfggvsvitp
+      601 gtntsnqvav lyqdvnctev pvaihadqlt ptwrvystgs nvfqtragcl igaehvnnsy
+      661 ecdipigagi casyqtqtns prrarsvasq siiaytmslg aensvaysnn siaiptnfti
+      721 svtteilpvs mtktsvdctm yicgdstecs nlllqygsfc tqlnraltgi aveqdkntqe
+      781 vfaqvkqiyk tppikdfggf nfsqilpdps kpskrsfied llfnkvtlad agfikqygdc
+      841 lgdiaardli caqkfngltv lpplltdemi aqytsallag titsgwtfga gaalqipfam
+      901 qmayrfngig vtqnvlyenq klianqfnsa igkiqdslss tasalgklqd vvnqnaqaln
+      961 tlvkqlssnf gaissvlndi lsrldkveae vqidrlitgr lqslqtyvtq qliraaeira
+     1021 sanlaatkms ecvlgqskrv dfcgkgyhlm sfpqsaphgv vflhvtyvpa qeknfttapa
+     1081 ichdgkahfp regvfvsngt hwfvtqrnfy epqiittdnt fvsgncdvvi givnntvydp
+     1141 lqpeldsfke eldkyfknht spdvdlgdis ginasvvniq keidrlneva knlneslidl
+     1201 qelgkyeqyi kwpwyiwlgf iagliaivmv timlccmtsc csclkgccsc gscckfdedd
+     1261 sepvlkgvkl hyt
+//
