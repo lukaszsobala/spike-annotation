@@ -1,4 +1,4 @@
-LOCUS       YP_009724390_SARS2        1273 aa            linear   VRL 16-APR-2020
+LOCUS       YP_009724390_SARS2        1273 aa            linear   VRL 17-APR-2020
 DEFINITION  surface glycoprotein [Severe acute respiratory syndrome coronavirus
             2].
 ACCESSION   YP_009724390
@@ -50,11 +50,6 @@ FEATURES             Location/Qualifiers
      Protein         1..1273
                      /product="surface glycoprotein"
                      /calculated_mol_wt=141048
-     gene            1..1273
-                     /gene="S"
-                     /locus_tag=2
-                     /Transferred_From="SPIKE_CVHSA SARS"
-                     /Transferred_Similarity="75.71%"
      sig_peptide     1..13
                      /region_name="Signal"
                      /experiment="experimental evidence, no additional details
@@ -81,6 +76,7 @@ FEATURES             Location/Qualifiers
                      /note="Spike glycoprotein. /FTId=PRO_0000037208."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="75.91%"
+                     /label="Uncleaved Spike"
      misc_feature    14..1213
                      /region_name="Topological domain"
                      /experiment="experimental evidence, no additional details
@@ -98,7 +94,12 @@ FEATURES             Location/Qualifiers
                      {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000037209."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="62.75%"
+                     /Alt_name="Surface subunit"
                      /label="S1 subunit"
+     domain          14..294
+                     /Source="Cross-annotated from HKU1 Spike"
+                     /Alt_name="Spike NTD"
+                     /label="S1A domain"
      site            17
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
                      /label="N-glycosylation"
@@ -128,6 +129,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          61..68
                      /region_name="Beta-strand region"
@@ -168,6 +171,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      site            149
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
@@ -177,6 +182,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          184..197
                      /region_name="Beta-strand region"
@@ -190,6 +197,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      Immunogen       249..261
                      /Source="https://doi.org/10.1101/2020.04.13.039198"
@@ -220,6 +229,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          285..290
                      /region_name="Beta-strand region"
@@ -265,6 +276,9 @@ FEATURES             Location/Qualifiers
      site            325
                      /Source="https://doi.org/10.1101/2020.04.01.020966"
                      /label="O-glycosylation"
+     domain          327..531
+                     /Source="https://dx.doi.org/10.1016/j.cell.2020.02.058"
+                     /label="RBD"
      domain          331..583
                      /region_name="Spike_rec_bind"
                      /note="Spike receptor binding domain; pfam09408"
@@ -276,9 +290,11 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      domain          333..527
-                     /Reference="Yuan et al. Science 2020"
+                     /Source="https://doi.org/10.1126/science.abb7269"
                      /label="RBD"
      bond            bond(336,361)
                      /bond_type="disulfide"
@@ -310,6 +326,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      helix           350..352
                      /region_name="Helical region"
@@ -413,6 +431,10 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:3D0G}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     binding_site    order(414,439,449,453,455,486..487,489,493,498,500..502,
+                     505)
+                     /Source="https://doi.org/10.1016/j.cell.2020.02.058"
+                     /label="hACE2 binding"
      helix           417..421
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -594,6 +616,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          610..613
                      /region_name="Beta-strand region"
@@ -603,7 +627,9 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
      misc_feature    614
-                     /D614G="Increasing in frequency"
+                     /D->G="Increasing in frequency"
+                     /Source="https://observablehq.com/@spond/natural-selection
+                     -analysis-of-sars-cov-2-covid-19"
                      /label="SNP"
                      /note="Geneious type: sequence variant"
      site            616
@@ -611,6 +637,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      helix           618..624
                      /region_name="Helical region"
@@ -658,6 +686,8 @@ FEATURES             Location/Qualifiers
                      /Transferred_Similarity="72.50%"
      site            657
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          663..667
                      /region_name="Beta-strand region"
@@ -681,6 +711,9 @@ FEATURES             Location/Qualifiers
                      /Source="https://doi.org/10.1038/s41591-020-0820-9"
                      /note="No experimental evidence"
                      /label="O-glycosylated?"
+     misc_difference 679..684
+                     /Source="https://doi.org/10.1016/j.cell.2020.02.058"
+                     /label="IL in Walls/Veesler construct"
      misc_feature    681..686
                      /Source="https://doi.org/10.1101/2020.04.14.041459"
                      /label="Glycosaminoglycan-binding motif 2"
@@ -715,6 +748,7 @@ FEATURES             Location/Qualifiers
                      {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000037210."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="91.93%"
+                     /Alt_name="Transmembrane subunit"
                      /label="S2 subunit"
      site            686
                      /Source="https://doi.org/10.1038/s41591-020-0820-9"
@@ -739,6 +773,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          709..716
                      /region_name="Beta-strand region"
@@ -752,6 +788,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          722..728
                      /region_name="Beta-strand region"
@@ -842,6 +880,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      turn            803..805
                      /region_name="Hydrogen bonded turn"
@@ -1069,6 +1109,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          1079..1081
                      /region_name="Beta-strand region"
@@ -1103,6 +1145,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      strand          1101..1104
                      /region_name="Beta-strand region"
@@ -1137,6 +1181,8 @@ FEATURES             Location/Qualifiers
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
+                     /Visible_in_CryoEM_maps="According to
+                     https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
      site            1158
                      /site_type="glycosylation"
@@ -1238,7 +1284,9 @@ FEATURES             Location/Qualifiers
                      /label="Cytoplasmic"
                      /note="Geneious type: topological domain"
      misc_feature    1263
-                     /P1263L="quite common"
+                     /P->L="common variant"
+                     /Source="https://observablehq.com/@spond/natural-selection
+                     -analysis-of-sars-cov-2-covid-19"
                      /label="SNP"
                      /note="Geneious type: sequence variant"
      misc_feature    1269..1273
