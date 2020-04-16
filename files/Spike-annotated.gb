@@ -464,7 +464,7 @@ FEATURES             Location/Qualifiers
                      /Transferred_Similarity="58.82%"
      misc_feature    453..459
                      /Source="https://doi.org/10.1101/2020.04.14.041459"
-                     /label="Glycosaminoglycan-binding motif"
+                     /label="Glycosaminoglycan-binding motif 1"
      misc_feature    465
                      /site_type="mutagenized"
                      /experiment="experimental evidence, no additional details
