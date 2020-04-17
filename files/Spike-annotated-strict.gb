@@ -259,6 +259,9 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    order(369..372,374..386,389..390,392,427..430,515..517,
+                     519)
+                     /note="Geneious type: binding_site"
      misc_feature    375..381
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
