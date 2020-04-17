@@ -82,6 +82,8 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: domain"
      misc_feature    17
                      /note="Geneious type: site"
+     misc_feature    25..38
+                     /note="Geneious type: Immunogen"
      misc_feature    33..37
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -204,6 +206,9 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    order(333..337,339..341,343..346,354,356..361,440..442,
+                     444,509)
+                     /note="Geneious type: binding_site"
      misc_feature    333..527
                      /note="Geneious type: domain"
      misc_feature    bond(336,361)
@@ -231,6 +236,8 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    351..359
+                     /note="Geneious type: Immunogen"
      misc_feature    354..358
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -287,6 +294,8 @@ FEATURES             Location/Qualifiers
      misc_feature    407..420
                      /note="Geneious type: Immunogen"
      misc_feature    407..413
+                     /note="Geneious type: Immunogen"
+     misc_feature    410..418
                      /note="Geneious type: Immunogen"
      misc_feature    410..413
                      /note="Geneious type: strand"
@@ -369,6 +378,8 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    514..526
+                     /note="Geneious type: Immunogen"
      misc_feature    523..525
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -474,6 +485,8 @@ FEATURES             Location/Qualifiers
                      /note="No experimental evidence"
      misc_difference 679..684
      misc_feature    681..686
+     misc_feature    681..689
+                     /note="Geneious type: Immunogen"
      misc_difference 682..685
      misc_feature    682..685
                      /note="Geneious type: site"
@@ -773,6 +786,12 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    1136..1144
+                     /note="Geneious type: Immunogen"
+     misc_feature    1137..1145
+                     /note="Geneious type: Immunogen"
+     misc_feature    1156..1164
+                     /note="Geneious type: Immunogen"
      misc_feature    1158
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
