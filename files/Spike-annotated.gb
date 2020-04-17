@@ -103,6 +103,9 @@ FEATURES             Location/Qualifiers
      site            17
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
                      /label="N-glycosylation"
+     Immunogen       25..38
+                     /Source="https://doi.org/10.1101/2020.04.08.013516"
+                     /label="ABCpred best predicted B-cell binding affinity"
      strand          33..37
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -293,6 +296,10 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     binding_site    order(333..337,339..341,343..346,354,356..361,440..442,
+                     444,509)
+                     /Source="https://doi.org/10.1101/2020.04.07.023903"
+                     /label="S309 antibody binding epitope"
      domain          333..527
                      /Source="https://doi.org/10.1126/science.abb7269"
                      /label="RBD"
@@ -337,6 +344,9 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
                      /label="Helical region"
+     Immunogen       351..359
+                     /Source="https://doi.org/10.1101/2020.04.05.026005"
+                     /label="Predicted T-cell epitope 1"
      strand          354..358
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -424,6 +434,9 @@ FEATURES             Location/Qualifiers
      Immunogen       407..413
                      /Source="https://doi.org/10.1101/2020.04.15.036285"
                      /label="Top Kolaskar and Tongaonkar antigenicity"
+     Immunogen       410..418
+                     /Source="https://doi.org/10.1101/2020.04.05.026005"
+                     /label="Predicted T-cell epitope 2"
      strand          410..413
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -553,6 +566,9 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:2GHV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     Immunogen       514..526
+                     /Source="https://doi.org/10.1101/2020.04.08.013516"
+                     /label="Best MHC-II predicted binding affinity (IEDB)"
      strand          523..525
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -717,6 +733,9 @@ FEATURES             Location/Qualifiers
      misc_feature    681..686
                      /Source="https://doi.org/10.1101/2020.04.14.041459"
                      /label="Glycosaminoglycan-binding motif 2"
+     Immunogen       681..689
+                     /Source="https://doi.org/10.1101/2020.04.05.026005"
+                     /label="Predicted T-cell epitope 3"
      misc_difference 682..685
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
                      /label="GSAS in Watanabe/Crispin construct"
@@ -1184,6 +1203,15 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     Immunogen       1136..1144
+                     /Source="https://doi.org/10.1101/2020.04.05.026005"
+                     /label="Predicted T-cell epitope 4"
+     Immunogen       1137..1145
+                     /Source="https://doi.org/10.1101/2020.04.05.026005"
+                     /label="Predicted T-cell epitope 5"
+     Immunogen       1156..1164
+                     /Source="https://doi.org/10.1101/2020.04.05.026005"
+                     /label="Predicted T-cell epitope 6"
      site            1158
                      /site_type="glycosylation"
                      /note="N-linked (GlcNAc...) asparagine; by host.
