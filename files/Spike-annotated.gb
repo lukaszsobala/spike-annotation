@@ -379,6 +379,10 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
                      /label="Helical region"
+     binding_site    order(369..372,374..386,389..390,392,427..430,515..517,
+                     519)
+                     /Source="https://doi.org/10.1126/science.abb7269"
+                     /label="CR3022 antibody binding epitope"
      strand          375..381
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
