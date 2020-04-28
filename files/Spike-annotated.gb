@@ -1,4 +1,4 @@
-LOCUS       YP_009724390_SARS2        1273 aa            linear   VRL 17-APR-2020
+LOCUS       YP_009724390_SARS2        1273 aa            linear   VRL 28-APR-2020
 DEFINITION  surface glycoprotein [Severe acute respiratory syndrome coronavirus
             2].
 ACCESSION   YP_009724390
@@ -106,6 +106,25 @@ FEATURES             Location/Qualifiers
      Immunogen       25..38
                      /Source="https://doi.org/10.1101/2020.04.08.013516"
                      /label="ABCpred best predicted B-cell binding affinity"
+     strand          28..31
+                     /Strand_number_=1
+                     /Sheet_number_="AA1; AB6"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          28..30
+                     /Strand_number_=1
+                     /Sheet_number_="AA1; AB7; AB9; AD3; AD6"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          29..31
+                     /Strand_number_=1
+                     /Sheet_number_="AD2"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          33..37
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -113,6 +132,12 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="77.78%"
+     strand          36..37
+                     /Strand_number_=8
+                     /Sheet_number_="AB7; AD3"
+                     /Transferred_From="6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          40..44
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -120,6 +145,13 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="80.77%"
+     strand          42..43
+                     /Strand_number_="1; 7"
+                     /Sheet_number_="AA2; AA5; AA7; AC2; AC5"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          46..55
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -127,6 +159,44 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="56.60%"
+     strand          47..55
+                     /Strand_number_=1
+                     /Sheet_number_="AA2; AA3; AB7; AB8; AC1; AD4; AD7"
+                     /Transferred_From="6VSB_Prefusion_B, 6VXX_Closed_A,
+                     6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          48..55
+                     /Strand_number_=1
+                     /Sheet_number_="AD3"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          48..51
+                     /Strand_number_=1
+                     /Sheet_number_="AA2"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          54..55
+                     /Strand_number_=1
+                     /Sheet_number_="AA3"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          60..65
+                     /Strand_number_=2
+                     /Sheet_number_="AA1; AB6"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          60..62
+                     /Strand_number_=2
+                     /Sheet_number_="AD2"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            61
                      /site_type="glycosylation"
                      /note="N-linked (GlcNAc...) asparagine; by host.
@@ -142,12 +212,33 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="63.27%"
+     strand          61..65
+                     /Strand_number_=2
+                     /Sheet_number_="AA1; AB7; AB9; AD3; AD6"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            74
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
                      /label="N-glycosylation"
+     strand          83..85
+                     /Strand_number_=1
+                     /Sheet_number_="AA3; AA4; AA5; AB9; AC2; AC3; AD5; AD8;
+                     AD9"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      Immunogen       89..97
                      /Source="https://doi.org/10.1101/2020.04.13.039198"
                      /label="Putative MHC Class I epitope"
+     strand          89..96
+                     /Strand_number_=4
+                     /Sheet_number_="AB7"
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          90..98
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -155,6 +246,27 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="90.91%"
+     strand          90..96
+                     /Strand_number_=4
+                     /Sheet_number_="AA1; AB9; AD3; AD6"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          90..94
+                     /Strand_number_=4
+                     /Sheet_number_="AA1; AB6; AD4"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          101..107
+                     /Strand_number_="3; 4"
+                     /Sheet_number_="AA4; AA5; AC3; AD9"
+                     /Transferred_From="6VSB_Prefusion_A, 6VXX_Closed_A,
+                     6VXX_Closed_B, 6VXX_Closed_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          103..114
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -162,6 +274,24 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="68.57%"
+     strand          103..107
+                     /Strand_number_=3
+                     /Sheet_number_="AA3; AB9; AD5"
+                     /Transferred_From="6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          104..107
+                     /Strand_number_=4
+                     /Sheet_number_="AD5"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          106..107
+                     /Strand_number_=1
+                     /Sheet_number_="AB8"
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          116..121
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -169,6 +299,25 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="76.92%"
+     strand          116..117
+                     /Strand_number_=2
+                     /Sheet_number_="AB8"
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          117..122
+                     /Strand_number_=4
+                     /Sheet_number_="AA3; AA5; AB9; AC3; AD5; AD9"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          120..121
+                     /Strand_number_=1
+                     /Sheet_number_="AB9"
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            122
                      /site_type="glycosylation"
                      /note="N-linked (GlcNAc...) asparagine; by host.
@@ -177,6 +326,33 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     strand          125..129
+                     /Strand_number_=5
+                     /Sheet_number_="AA3; AA5; AB9; AC3; AD5; AD9"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          126..129
+                     /Strand_number_=2
+                     /Sheet_number_="AA4; AB9; AD5"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     disulfide_bond  order(131,166)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
+     strand          141..142
+                     /Strand_number_=3
+                     /Sheet_number_="AA4; AC2; AD8"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            149
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
                      /label="N-glycosylation"
@@ -188,6 +364,20 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     strand          169..172
+                     /Strand_number_="1; 3"
+                     /Sheet_number_="AA4; AB9; AD5"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          169..171
+                     /Strand_number_=6
+                     /Sheet_number_="AA3; AA5; AB9; AC3; AD5; AD9"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          184..197
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -195,6 +385,77 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="80.52%"
+     strand          188..197
+                     /Strand_number_="3; 5"
+                     /Sheet_number_="AA1; AB9; AD3; AD4; AD6"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          188..195
+                     /Strand_number_=5
+                     /Sheet_number_="AB7"
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          189..197
+                     /Strand_number_=5
+                     /Sheet_number_="AB6"
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          200..209
+                     /Strand_number_="2; 6"
+                     /Sheet_number_="AA1; AB9; AD3; AD4; AD6"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          200..208
+                     /Strand_number_=6
+                     /Sheet_number_="AB6"
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          201..209
+                     /Strand_number_=6
+                     /Sheet_number_="AB7"
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          222..230
+                     /Strand_number_=7
+                     /Sheet_number_="AD3"
+                     /Transferred_From="6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          222..229
+                     /Strand_number_=7
+                     /Sheet_number_="AB7"
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          224..229
+                     /Strand_number_=7
+                     /Sheet_number_="AA1; AB6; AB9; AD6"
+                     /Transferred_From="6VSB_Prefusion_B, 6VXX_Closed_A,
+                     6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          224..227
+                     /Strand_number_=1
+                     /Sheet_number_="AD4"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          224..225
+                     /Strand_number_=7
+                     /Sheet_number_="AA1"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            234
                      /site_type="glycosylation"
                      /note="N-linked (GlcNAc...) asparagine; by host.
@@ -203,6 +464,31 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     strand          237..244
+                     /Strand_number_=2
+                     /Sheet_number_="AA4; AA5; AC2; AC3; AD8; AD9"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          237..241
+                     /Strand_number_=2
+                     /Sheet_number_="AA3; AB9; AD5"
+                     /Transferred_From="6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          237..240
+                     /Strand_number_=5
+                     /Sheet_number_="AD5"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          238..242
+                     /Strand_number_=5
+                     /Sheet_number_="AA4"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      Immunogen       249..261
                      /Source="https://doi.org/10.1101/2020.04.13.039198"
                      /label="Putative B-cell vaccine candidate epitope"
@@ -213,6 +499,25 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="89.74%"
+     strand          264..269
+                     /Strand_number_=3
+                     /Sheet_number_="AB7"
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          265..269
+                     /Strand_number_=3
+                     /Sheet_number_="AA1; AB9; AD3; AD6"
+                     /Transferred_From="6VSB_Prefusion_A, 6VXX_Closed_A,
+                     6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          265..267
+                     /Strand_number_="3; 5"
+                     /Sheet_number_="AB6; AD4"
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          271..279
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -220,6 +525,18 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="73.47%"
+     strand          271..272
+                     /Strand_number_=2
+                     /Sheet_number_="AA3"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          275..279
+                     /Strand_number_=2
+                     /Sheet_number_="AA2"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          281..283
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -242,18 +559,29 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X4S}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     disulfide_bond  order(291,301)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
      misc_feature    293..299
                      /Source="https://doi.org/10.1101/2020.04.01.020941"
                      /label="LxxIxEx motif"
                      /note="Geneious type: region of interest"
-     turn            295..301
-                     /region_name="Hydrogen bonded turn"
-                     /experiment="experimental evidence, no additional details
-                     recorded"
-                     /note="{ECO:0000244|PDB:5X4S}."
-                     /Transferred_From="SPIKE_CVHSA SARS"
-                     /Transferred_Similarity="76.92%"
-                     /label="Hydrogen bonded turn Region"
+     helix           294..304
+                     /Transferred_From="6VSB_Prefusion_C, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           294..303
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           296..304
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      strand          310..312
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -261,6 +589,14 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          311..319
+                     /Strand_number_=1
+                     /Sheet_number_="AA4; AA5; AA6; AC1; AC4; AD6; AE1"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      Immunogen       317..327
                      /Source="https://doi.org/10.1101/2020.04.13.039198"
                      /label="Putative MHC Class II epitope"
@@ -276,9 +612,28 @@ FEATURES             Location/Qualifiers
      site            323
                      /Source="https://doi.org/10.1101/2020.04.01.020966"
                      /label="O-glycosylation"
+     strand          323..328
+                     /Strand_number_=1
+                     /Sheet_number_="AC2"
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          324..328
+                     /Strand_number_=1
+                     /Sheet_number_="AA5; AD7"
+                     /Transferred_From="6VYB_Open_A, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            325
                      /Source="https://doi.org/10.1101/2020.04.01.020966"
                      /label="O-glycosylation"
+     strand          325..328
+                     /Strand_number_="1; 7"
+                     /Sheet_number_="AA2; AA7; AC2; AC5"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      domain          327..531
                      /Source="https://dx.doi.org/10.1016/j.cell.2020.02.058"
                      /label="RBD"
@@ -310,6 +665,12 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     disulfide_bond  order(336,361)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
      misc_feature    336
                      /site_type="mutagenized"
                      /experiment="experimental evidence, no additional details
@@ -320,6 +681,16 @@ FEATURES             Location/Qualifiers
                      /Transferred_Similarity="100.00%"
                      /label="misc"
                      /note="Geneious type: sequence variant"
+     helix           337..341
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           338..343
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           339..342
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -336,6 +707,17 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     strand          348..349
+                     /Strand_number_=1
+                     /Sheet_number_="AD8; AD9"
+                     /Transferred_From="6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     helix           349..353
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           350..352
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -347,6 +729,10 @@ FEATURES             Location/Qualifiers
      Immunogen       351..359
                      /Source="https://doi.org/10.1101/2020.04.05.026005"
                      /label="Predicted T-cell epitope 1"
+     helix           351..353
+                     /Transferred_From="6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      strand          354..358
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -371,6 +757,28 @@ FEATURES             Location/Qualifiers
                      /Transferred_Similarity="100.00%"
                      /label="misc"
                      /note="Geneious type: sequence variant"
+     strand          361..362
+                     /Strand_number_=1
+                     /Sheet_number_="AA7; AA9; AC4; AC7; AD8; AE1; AE3"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     helix           364..371
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           365..371
+                     /Transferred_From="6VSB_Prefusion_C, 6VYB_Open_B,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           365..370
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           365..367
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -390,6 +798,20 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:2GHV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          376..380
+                     /Strand_number_=5
+                     /Sheet_number_="AD7"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          376..379
+                     /Strand_number_=5
+                     /Sheet_number_="AA6; AA8; AC3; AC6; AD9; AE2"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      bond            bond(379,432)
                      /bond_type="disulfide"
                      /experiment="experimental evidence, no additional details
@@ -397,6 +819,20 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     disulfide_bond  order(379,432)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
+     helix           383..390
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           383..389
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           384..391
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -405,6 +841,19 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="82.61%"
                      /label="Helical region"
+     disulfide_bond  order(391,525)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
+     strand          391..392
+                     /Strand_number_=3
+                     /Sheet_number_="AA7; AC4; AE1"
+                     /Transferred_From="6VSB_Prefusion_A, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          393..403
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -415,6 +864,26 @@ FEATURES             Location/Qualifiers
      misc_feature    394..428
                      /Source="https://doi.org/10.1101/2020.04.15.036285"
                      /label="conserved region"
+     strand          394..403
+                     /Strand_number_=2
+                     /Sheet_number_="AA6; AA8; AC3; AC6; AD7; AD8; AD9; AE2"
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          394..402
+                     /Strand_number_=2
+                     /Sheet_number_="AA6"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          395..403
+                     /Strand_number_=2
+                     /Sheet_number_="AC3"
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      Immunogen       399..413
                      /Source="https://doi.org/10.1101/2020.04.15.036285"
                      /label="Predicted T-cell (HTL) epitope"
@@ -424,6 +893,10 @@ FEATURES             Location/Qualifiers
      Immunogen       404..409
                      /Source="https://doi.org/10.1101/2020.04.15.036285"
                      /label="Top Emini surface accessibility prediction"
+     helix           404..410
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           404..409
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -432,6 +905,12 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="87.50%"
                      /label="Helical region"
+     helix           405..410
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      Immunogen       407..420
                      /Source="https://doi.org/10.1101/2020.04.13.039198"
                      /label="Putative B-cell vaccine candidate epitope"
@@ -452,6 +931,11 @@ FEATURES             Location/Qualifiers
                      505)
                      /Source="https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="hACE2 binding"
+     helix           416..422
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           417..421
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -470,6 +954,12 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          430..437
+                     /Strand_number_=4
+                     /Sheet_number_="AD7"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          431..437
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -477,6 +967,12 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:2GHV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="95.45%"
+     strand          432..437
+                     /Strand_number_=4
+                     /Sheet_number_="AA6; AC3"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      misc_feature    437..508
                      /region_name="Region of interest in the sequence"
                      /experiment="experimental evidence, no additional details
@@ -494,6 +990,19 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="63.64%"
                      /label="Helical region"
+     strand          448..453
+                     /Strand_number_=1
+                     /Sheet_number_="AB1; AC8; AE4"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          451..453
+                     /Strand_number_=1
+                     /Sheet_number_="AC5; AD9"
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          452..454
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -501,6 +1010,13 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:2GHV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="58.82%"
+     strand          452..453
+                     /Strand_number_=1
+                     /Sheet_number_="AA8; AC5; AE2"
+                     /Transferred_From="6VSB_Prefusion_A, 6VYB_Open_B,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      misc_feature    453..459
                      /Source="https://doi.org/10.1101/2020.04.14.041459"
                      /label="Glycosaminoglycan-binding motif 1"
@@ -555,6 +1071,36 @@ FEATURES             Location/Qualifiers
                      /Transferred_Similarity="100.00%"
                      /label="misc"
                      /note="Geneious type: sequence variant"
+     strand          492..494
+                     /Strand_number_=2
+                     /Sheet_number_="AA8"
+                     /Transferred_From="6VYB_Open_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          493..497
+                     /Strand_number_=2
+                     /Sheet_number_="AB1; AC8; AE4"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          493..495
+                     /Strand_number_=2
+                     /Sheet_number_="AC5; AD9"
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          493..494
+                     /Strand_number_=2
+                     /Sheet_number_="AA8; AC5; AE2"
+                     /Transferred_From="6VSB_Prefusion_A, 6VYB_Open_B,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     helix           502..505
+                     /Transferred_From="6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           503..505
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -570,6 +1116,26 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:2GHV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          507..516
+                     /Strand_number_=3
+                     /Sheet_number_="AA6; AA8; AC3; AC6; AD7; AD9; AE2"
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          507..514
+                     /Strand_number_=3
+                     /Sheet_number_="AC3"
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          508..516
+                     /Strand_number_=3
+                     /Sheet_number_="AA6"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      Immunogen       514..526
                      /Source="https://doi.org/10.1101/2020.04.08.013516"
                      /label="Best MHC-II predicted binding affinity (IEDB)"
@@ -580,6 +1146,14 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:2DD8}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          524..525
+                     /Strand_number_=2
+                     /Sheet_number_="AA7; AA9; AC4; AC7; AD8; AE1; AE3"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          537..541
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -587,6 +1161,46 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="86.67%"
+     disulfide_bond  order(538,590)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
+     strand          538..543
+                     /Strand_number_="1; 2; 6"
+                     /Sheet_number_="AA2; AA5; AA7; AC2; AC5; AD7; AE1"
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          538..540
+                     /Strand_number_=1
+                     /Sheet_number_="AA9"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          546..554
+                     /Strand_number_="2; 3; 5"
+                     /Sheet_number_="AA2; AA5; AA7; AC2; AC5; AD7; AE1"
+                     /Transferred_From="6VSB_Prefusion_C, 6VXX_Closed_A,
+                     6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          547..554
+                     /Strand_number_=3
+                     /Sheet_number_="AC2"
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          549..554
+                     /Strand_number_=2
+                     /Sheet_number_="AA9"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          550..554
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -601,6 +1215,28 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="77.61%"
+     strand          565..567
+                     /Strand_number_="2; 5; 6"
+                     /Sheet_number_="AA2; AA5; AA7; AA9; AC2; AC5; AD7"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          573..577
+                     /Strand_number_="3; 4; 5"
+                     /Sheet_number_="AA2; AA5; AA7; AA9; AC2; AC5; AD7"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          575..577
+                     /Strand_number_=4
+                     /Sheet_number_="AE1"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      turn            579..581
                      /region_name="Hydrogen bonded turn"
                      /experiment="experimental evidence, no additional details
@@ -616,6 +1252,14 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="82.61%"
+     strand          592..599
+                     /Strand_number_=2
+                     /Sheet_number_="AA4; AA5; AA6; AC1; AC4; AD6; AE1"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          597..599
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -639,6 +1283,20 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     strand          609..613
+                     /Strand_number_=3
+                     /Sheet_number_="AA4; AA6; AC1; AC4; AD6; AE1"
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          609..612
+                     /Strand_number_=3
+                     /Sheet_number_="AA5"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          610..613
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -650,6 +1308,10 @@ FEATURES             Location/Qualifiers
                      /D->G="Increasing in frequency"
                      /Source="https://observablehq.com/@spond/natural-selection
                      -analysis-of-sars-cov-2-covid-19"
+                     /Claims="At the interface between two subunits, quickly
+                     became dominant, no evidence of convergent selection, not
+                     expected to be in an epitope critical for a vaccine.
+                     https://doi.org/10.1101/2020.04.27.064774"
                      /label="SNP"
                      /note="Geneious type: sequence variant"
      site            616
@@ -660,6 +1322,12 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     disulfide_bond  order(617,649)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
      helix           618..624
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -690,6 +1358,26 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:6CRV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          642..644
+                     /Strand_number_=5
+                     /Sheet_number_="AD6"
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          642..643
+                     /Strand_number_=5
+                     /Sheet_number_="AA5"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          648..651
+                     /Strand_number_=4
+                     /Sheet_number_="AA4; AA6; AC1; AC4; AD6; AE1"
+                     /Transferred_From="6VSB_Prefusion_B, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          649..652
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -697,6 +1385,12 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          650..651
+                     /Strand_number_=4
+                     /Sheet_number_="AA5"
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          654..660
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -704,11 +1398,25 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:6CRV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="72.50%"
+     strand          654..655
+                     /Strand_number_=1
+                     /Sheet_number_="AA9; AB1; AB2; AC6; AC9; AE2; AE3; AE5"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            657
                      /Source="https://doi.org/10.1101/2020.03.26.010322"
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     disulfide_bond  order(662,671)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
      strand          663..667
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -716,6 +1424,27 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          664..667
+                     /Strand_number_=4
+                     /Sheet_number_="AA9; AB2; AC6; AC9; AE3; AE5"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          665..667
+                     /Strand_number_=4
+                     /Sheet_number_="AB1; AC6; AE2"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          670..675
+                     /Strand_number_=3
+                     /Sheet_number_="AA9; AB2; AC6; AC9; AE3; AE5"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          670..673
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -723,6 +1452,18 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          670..672
+                     /Strand_number_=3
+                     /Sheet_number_="AB1; AE2"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          670..671
+                     /Strand_number_=3
+                     /Sheet_number_="AC6"
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            673
                      /Source="https://doi.org/10.1038/s41591-020-0820-9"
                      /note="No experimental evidence"
@@ -777,6 +1518,19 @@ FEATURES             Location/Qualifiers
                      /Source="https://doi.org/10.1038/s41591-020-0820-9"
                      /note="no experimental evidence"
                      /label="O-glycosylated?"
+     strand          691..696
+                     /Strand_number_=2
+                     /Sheet_number_="AA9; AB2; AC6; AC9; AE3; AE5"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          692..696
+                     /Strand_number_=2
+                     /Sheet_number_="AB1; AE2"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          693..696
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -791,6 +1545,19 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="59.09%"
+     strand          701..702
+                     /Strand_number_="1; 2"
+                     /Sheet_number_="AB1; AB3; AB5; AB7; AD1"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          702..704
+                     /Strand_number_=1
+                     /Sheet_number_="AC7"
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            709
                      /site_type="glycosylation"
                      /note="N-linked (GlcNAc...) asparagine; by host.
@@ -806,6 +1573,21 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="90.24%"
+     strand          711..728
+                     /Strand_number_=1
+                     /Sheet_number_="AB2; AB3; AB4; AB5; AC7; AC8; AC9; AD2;
+                     AD3; AE3; AE4; AE6; AE7"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     strand          711..715
+                     /Strand_number_=1
+                     /Sheet_number_="AE4"
+                     /Transferred_From="6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      site            717
                      /site_type="glycosylation"
                      /note="N-linked (GlcNAc...) asparagine; by host.
@@ -814,6 +1596,12 @@ FEATURES             Location/Qualifiers
                      /Visible_in_CryoEM_maps="According to
                      https://doi.org/10.1016/j.cell.2020.02.058"
                      /label="N-glycosylation"
+     strand          718..728
+                     /Strand_number_=1
+                     /Sheet_number_="AE5"
+                     /Transferred_From="6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          722..728
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -821,6 +1609,14 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="85.71%"
+     strand          733..736
+                     /Strand_number_=1
+                     /Sheet_number_="AB4; AB6; AC9; AD1; AD4; AE5; AE6; AE8"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      strand          734..736
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -828,6 +1624,18 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:6CRV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     helix           737..743
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     disulfide_bond  order(738,760)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
      helix           738..743
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -836,6 +1644,22 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="85.00%"
                      /label="Helical region"
+     disulfide_bond  order(743,749)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
+     helix           746..755
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           746..754
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           748..753
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -852,6 +1676,21 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
                      /label="Helical region"
+     helix           755..759
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           755..757
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C,
+                     6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           758..783
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      strand          758..762
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -859,6 +1698,11 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     helix           760..783
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           763..782
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -874,6 +1718,13 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="81.82%"
+     strand          787..788
+                     /Strand_number_="1; 2"
+                     /Sheet_number_="AB1; AB3; AB5; AB7; AD1"
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      misc_feature    788..806
                      /region_name="Region of interest in the sequence"
                      /experiment="experimental evidence, no additional details
@@ -883,6 +1734,12 @@ FEATURES             Location/Qualifiers
                      /Transferred_Similarity="77.14%"
                      /label="Fusion peptide"
                      /note="Geneious type: region of interest"
+     strand          788..790
+                     /Strand_number_=2
+                     /Sheet_number_="AC7"
+                     /Transferred_From="6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
      helix           791..795
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -964,6 +1821,16 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="94.00%"
                      /label="S2'"
+     helix           816..824
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C,
+                     6VXX_Closed_A, 6VXX_Closed_B, 6VXX_Closed_C, 6VYB_Open_A,
+                     6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           816..823
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           817..824
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -1001,6 +1868,24 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:6CRV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     strand          858..861
+                     /Strand_number_=2
+                     /Sheet_number_="AB4; AB6; AC9; AD1; AD4; AE5; AE6; AE8"
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Beta Strand"
+     helix           866..885
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           866..884
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           867..883
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -1009,6 +1894,19 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="70.73%"
                      /label="Helical region"
+     helix           885..890
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           885..888
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           886..891
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           887..890
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -1025,6 +1923,16 @@ FEATURES             Location/Qualifiers
                      /Source="https://doi.org/10.1101/2020.04.15.040618"
                      /label="Epitope chosen for multi-epitope vaccine
                      construct"
+     helix           897..910
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           897..908
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           898..909
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -1033,6 +1941,16 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
                      /label="Helical region"
+     helix           912..919
+                     /Transferred_From="6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           913..919
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      strand          916..918
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -1040,6 +1958,12 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:2BEZ}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     helix           919..941
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      repeat_region   920..970
                      /region_name="Region of interest in the sequence"
                      /experiment="experimental evidence, no additional details
@@ -1057,6 +1981,17 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="85.71%"
                      /label="Helical region"
+     helix           942..944
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           945..965
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      coil            949..993
                      /region_name="Coiled-coil region"
                      /experiment="experimental evidence, no additional details
@@ -1064,6 +1999,26 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     helix           966..968
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           976..984
+                     /Transferred_From="6VSB_Prefusion_B, 6VYB_Open_A,
+                     6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           976..983
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           976..982
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      helix           977..981
                      /region_name="Helical region"
                      /experiment="experimental evidence, no additional details
@@ -1099,6 +2054,12 @@ FEATURES             Location/Qualifiers
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
                      /label="Hydrogen bonded turn Region"
+     disulfide_bond  order(1032,1043)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
      strand          1045..1050
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -1142,6 +2103,12 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:5X58}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     disulfide_bond  order(1082,1126)
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B,
+                     6VSB_Prefusion_C, 6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C, 6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Disulphide Bridge"
      strand          1084..1086
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -1185,6 +2152,14 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:6CRV}."
                      /Transferred_From="SPIKE_CVHSA SARS"
                      /Transferred_Similarity="100.00%"
+     helix           1116..1120
+                     /Transferred_From="6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           1116..1118
+                     /Transferred_From="6VSB_Prefusion_A"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      strand          1119..1129
                      /region_name="Beta-strand region"
                      /experiment="experimental evidence, no additional details
@@ -1213,6 +2188,23 @@ FEATURES             Location/Qualifiers
      Immunogen       1137..1145
                      /Source="https://doi.org/10.1101/2020.04.05.026005"
                      /label="Predicted T-cell epitope 5"
+     helix           1140..1147
+                     /Transferred_From="6VYB_Open_A, 6VYB_Open_B, 6VYB_Open_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           1140..1145
+                     /Transferred_From="6VSB_Prefusion_A, 6VSB_Prefusion_B"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           1141..1147
+                     /Transferred_From="6VXX_Closed_A, 6VXX_Closed_B,
+                     6VXX_Closed_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
+     helix           1141..1145
+                     /Transferred_From="6VSB_Prefusion_C"
+                     /Transferred_Similarity="100.00%"
+                     /label="Alpha Helix"
      Immunogen       1156..1164
                      /Source="https://doi.org/10.1101/2020.04.05.026005"
                      /label="Predicted T-cell epitope 6"
