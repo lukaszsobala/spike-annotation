@@ -1,4 +1,4 @@
-LOCUS       YP_009724390_SAR        1273 aa            linear   VRL 17-APR-2020
+LOCUS       YP_009724390_SAR        1273 aa            linear   VRL 28-APR-2020
 DEFINITION  surface glycoprotein [Severe acute respiratory syndrome coronavirus
             2].
 ACCESSION   YP_009724390
@@ -84,21 +84,43 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: site"
      misc_feature    25..38
                      /note="Geneious type: Immunogen"
+     misc_feature    28..31
+                     /note="Geneious type: strand"
+     misc_feature    28..30
+                     /note="Geneious type: strand"
+     misc_feature    29..31
+                     /note="Geneious type: strand"
      misc_feature    33..37
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    36..37
+                     /note="Geneious type: strand"
      misc_feature    40..44
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    42..43
+                     /note="Geneious type: strand"
      misc_feature    46..55
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    47..55
+                     /note="Geneious type: strand"
+     misc_feature    48..55
+                     /note="Geneious type: strand"
+     misc_feature    48..51
+                     /note="Geneious type: strand"
+     misc_feature    54..55
+                     /note="Geneious type: strand"
+     misc_feature    60..65
+                     /note="Geneious type: strand"
+     misc_feature    60..62
+                     /note="Geneious type: strand"
      misc_feature    61
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
@@ -108,44 +130,110 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    61..65
+                     /note="Geneious type: strand"
      misc_feature    74
                      /note="Geneious type: site"
+     misc_feature    83..85
+                     /note="Geneious type: strand"
      misc_feature    89..97
                      /note="Geneious type: Immunogen"
+     misc_feature    89..96
+                     /note="Geneious type: strand"
      misc_feature    90..98
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    90..96
+                     /note="Geneious type: strand"
+     misc_feature    90..94
+                     /note="Geneious type: strand"
+     misc_feature    101..107
+                     /note="Geneious type: strand"
      misc_feature    103..114
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    103..107
+                     /note="Geneious type: strand"
+     misc_feature    104..107
+                     /note="Geneious type: strand"
+     misc_feature    106..107
+                     /note="Geneious type: strand"
      misc_feature    116..121
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    116..117
+                     /note="Geneious type: strand"
+     misc_feature    117..122
+                     /note="Geneious type: strand"
+     misc_feature    120..121
+                     /note="Geneious type: strand"
      misc_feature    122
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    125..129
+                     /note="Geneious type: strand"
+     misc_feature    126..129
+                     /note="Geneious type: strand"
+     misc_feature    order(131,166)
+                     /note="Geneious type: disulfide_bond"
+     misc_feature    141..142
+                     /note="Geneious type: strand"
      misc_feature    149
                      /note="Geneious type: site"
      misc_feature    165
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    169..172
+                     /note="Geneious type: strand"
+     misc_feature    169..171
+                     /note="Geneious type: strand"
      misc_feature    184..197
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    188..197
+                     /note="Geneious type: strand"
+     misc_feature    188..195
+                     /note="Geneious type: strand"
+     misc_feature    189..197
+                     /note="Geneious type: strand"
+     misc_feature    200..209
+                     /note="Geneious type: strand"
+     misc_feature    200..208
+                     /note="Geneious type: strand"
+     misc_feature    201..209
+                     /note="Geneious type: strand"
+     misc_feature    222..230
+                     /note="Geneious type: strand"
+     misc_feature    222..229
+                     /note="Geneious type: strand"
+     misc_feature    224..229
+                     /note="Geneious type: strand"
+     misc_feature    224..227
+                     /note="Geneious type: strand"
+     misc_feature    224..225
+                     /note="Geneious type: strand"
      misc_feature    234
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    237..244
+                     /note="Geneious type: strand"
+     misc_feature    237..241
+                     /note="Geneious type: strand"
+     misc_feature    237..240
+                     /note="Geneious type: strand"
+     misc_feature    238..242
+                     /note="Geneious type: strand"
      misc_feature    249..261
                      /note="Geneious type: Immunogen"
      misc_feature    263..269
@@ -153,11 +241,21 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    264..269
+                     /note="Geneious type: strand"
+     misc_feature    265..269
+                     /note="Geneious type: strand"
+     misc_feature    265..267
+                     /note="Geneious type: strand"
      misc_feature    271..279
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    271..272
+                     /note="Geneious type: strand"
+     misc_feature    275..279
+                     /note="Geneious type: strand"
      misc_feature    281..283
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -172,18 +270,23 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    order(291,301)
+                     /note="Geneious type: disulfide_bond"
      misc_feature    293..299
                      /note="Geneious type: region of interest"
-     misc_feature    295..301
-                     /note="Geneious type: turn"
-                     /experiment="experimental evidence, no additional details
-                     recorded"
-                     /note="{ECO:0000244|PDB:5X4S}."
+     misc_feature    294..304
+                     /note="Geneious type: helix"
+     misc_feature    294..303
+                     /note="Geneious type: helix"
+     misc_feature    296..304
+                     /note="Geneious type: helix"
      misc_feature    310..312
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    311..319
+                     /note="Geneious type: strand"
      misc_feature    317..327
                      /note="Geneious type: Immunogen"
      misc_feature    319..541
@@ -194,8 +297,14 @@ FEATURES             Location/Qualifiers
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
      misc_feature    323
                      /note="Geneious type: site"
+     misc_feature    323..328
+                     /note="Geneious type: strand"
+     misc_feature    324..328
+                     /note="Geneious type: strand"
      misc_feature    325
                      /note="Geneious type: site"
+     misc_feature    325..328
+                     /note="Geneious type: strand"
      misc_feature    327..531
                      /note="Geneious type: domain"
      misc_feature    331..583
@@ -216,12 +325,18 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    order(336,361)
+                     /note="Geneious type: disulfide_bond"
      misc_feature    336
                      /note="Geneious type: sequence variant"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="C->A: No effect on human ACE2 binding in vitro.
                      {ECO:0000269|PubMed:15496474}."
+     misc_feature    337..341
+                     /note="Geneious type: helix"
+     misc_feature    338..343
+                     /note="Geneious type: helix"
      misc_feature    339..342
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -231,6 +346,10 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    348..349
+                     /note="Geneious type: strand"
+     misc_feature    349..353
+                     /note="Geneious type: helix"
      misc_feature    350..352
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -238,6 +357,8 @@ FEATURES             Location/Qualifiers
                      /note="{ECO:0000244|PDB:2GHV}."
      misc_feature    351..359
                      /note="Geneious type: Immunogen"
+     misc_feature    351..353
+                     /note="Geneious type: helix"
      misc_feature    354..358
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -254,6 +375,14 @@ FEATURES             Location/Qualifiers
                      recorded"
                      /note="C->A: Complete loss of human ACE2 binding in
                      vitro.{ECO:0000269|PubMed:15496474}."
+     misc_feature    361..362
+                     /note="Geneious type: strand"
+     misc_feature    364..371
+                     /note="Geneious type: helix"
+     misc_feature    365..371
+                     /note="Geneious type: helix"
+     misc_feature    365..370
+                     /note="Geneious type: helix"
      misc_feature    365..367
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -267,33 +396,57 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    376..380
+                     /note="Geneious type: strand"
+     misc_feature    376..379
+                     /note="Geneious type: strand"
      misc_feature    bond(379,432)
                      /note="Geneious type: bond"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    order(379,432)
+                     /note="Geneious type: disulfide_bond"
+     misc_feature    383..390
+                     /note="Geneious type: helix"
+     misc_feature    383..389
+                     /note="Geneious type: helix"
      misc_feature    384..391
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    order(391,525)
+                     /note="Geneious type: disulfide_bond"
+     misc_feature    391..392
+                     /note="Geneious type: strand"
      misc_feature    393..403
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
      misc_feature    394..428
+     misc_feature    394..403
+                     /note="Geneious type: strand"
+     misc_feature    394..402
+                     /note="Geneious type: strand"
+     misc_feature    395..403
+                     /note="Geneious type: strand"
      misc_feature    399..413
                      /note="Geneious type: Immunogen"
      misc_feature    402..424
                      /note="Geneious type: Immunogen"
      misc_feature    404..409
                      /note="Geneious type: Immunogen"
+     misc_feature    404..410
+                     /note="Geneious type: helix"
      misc_feature    404..409
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    405..410
+                     /note="Geneious type: helix"
      misc_feature    407..420
                      /note="Geneious type: Immunogen"
      misc_feature    407..413
@@ -308,6 +461,8 @@ FEATURES             Location/Qualifiers
      misc_feature    order(414,439,449,453,455,486..487,489,493,498,500..502,
                      505)
                      /note="Geneious type: binding_site"
+     misc_feature    416..422
+                     /note="Geneious type: helix"
      misc_feature    417..421
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -320,11 +475,15 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    430..437
+                     /note="Geneious type: strand"
      misc_feature    431..437
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    432..437
+                     /note="Geneious type: strand"
      misc_feature    437..508
                      /note="Geneious type: region of interest"
                      /experiment="experimental evidence, no additional details
@@ -335,11 +494,17 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    448..453
+                     /note="Geneious type: strand"
+     misc_feature    451..453
+                     /note="Geneious type: strand"
      misc_feature    452..454
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    452..453
+                     /note="Geneious type: strand"
      misc_feature    453..459
      misc_feature    465
                      /note="Geneious type: sequence variant"
@@ -371,6 +536,16 @@ FEATURES             Location/Qualifiers
                      recorded"
                      /note="C->A: Complete loss of human ACE2 binding in
                      vitro.{ECO:0000269|PubMed:15496474}."
+     misc_feature    492..494
+                     /note="Geneious type: strand"
+     misc_feature    493..497
+                     /note="Geneious type: strand"
+     misc_feature    493..495
+                     /note="Geneious type: strand"
+     misc_feature    493..494
+                     /note="Geneious type: strand"
+     misc_feature    502..505
+                     /note="Geneious type: helix"
      misc_feature    503..505
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -381,6 +556,12 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2GHV}."
+     misc_feature    507..516
+                     /note="Geneious type: strand"
+     misc_feature    507..514
+                     /note="Geneious type: strand"
+     misc_feature    508..516
+                     /note="Geneious type: strand"
      misc_feature    514..526
                      /note="Geneious type: Immunogen"
      misc_feature    523..525
@@ -388,11 +569,25 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2DD8}."
+     misc_feature    524..525
+                     /note="Geneious type: strand"
      misc_feature    537..541
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    order(538,590)
+                     /note="Geneious type: disulfide_bond"
+     misc_feature    538..543
+                     /note="Geneious type: strand"
+     misc_feature    538..540
+                     /note="Geneious type: strand"
+     misc_feature    546..554
+                     /note="Geneious type: strand"
+     misc_feature    547..554
+                     /note="Geneious type: strand"
+     misc_feature    549..554
+                     /note="Geneious type: strand"
      misc_feature    550..554
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -403,6 +598,12 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    565..567
+                     /note="Geneious type: strand"
+     misc_feature    573..577
+                     /note="Geneious type: strand"
+     misc_feature    575..577
+                     /note="Geneious type: strand"
      misc_feature    579..581
                      /note="Geneious type: turn"
                      /experiment="experimental evidence, no additional details
@@ -413,6 +614,8 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    592..599
+                     /note="Geneious type: strand"
      misc_feature    597..599
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -427,6 +630,10 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    609..613
+                     /note="Geneious type: strand"
+     misc_feature    609..612
+                     /note="Geneious type: strand"
      misc_feature    610..613
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -438,6 +645,8 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    order(617,649)
+                     /note="Geneious type: disulfide_bond"
      misc_feature    618..624
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -458,28 +667,50 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    642..644
+                     /note="Geneious type: strand"
+     misc_feature    642..643
+                     /note="Geneious type: strand"
+     misc_feature    648..651
+                     /note="Geneious type: strand"
      misc_feature    649..652
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    650..651
+                     /note="Geneious type: strand"
      misc_feature    654..660
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    654..655
+                     /note="Geneious type: strand"
      misc_feature    657
                      /note="Geneious type: site"
+     misc_feature    order(662,671)
+                     /note="Geneious type: disulfide_bond"
      misc_feature    663..667
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    664..667
+                     /note="Geneious type: strand"
+     misc_feature    665..667
+                     /note="Geneious type: strand"
+     misc_feature    670..675
+                     /note="Geneious type: strand"
      misc_feature    670..673
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    670..672
+                     /note="Geneious type: strand"
+     misc_feature    670..671
+                     /note="Geneious type: strand"
      misc_feature    673
                      /note="Geneious type: site"
                      /note="No experimental evidence"
@@ -514,6 +745,10 @@ FEATURES             Location/Qualifiers
      misc_feature    686
                      /note="Geneious type: site"
                      /note="no experimental evidence"
+     misc_feature    691..696
+                     /note="Geneious type: strand"
+     misc_feature    692..696
+                     /note="Geneious type: strand"
      misc_feature    693..696
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -524,6 +759,10 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    701..702
+                     /note="Geneious type: strand"
+     misc_feature    702..704
+                     /note="Geneious type: strand"
      misc_feature    709
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
@@ -533,25 +772,43 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    711..728
+                     /note="Geneious type: strand"
+     misc_feature    711..715
+                     /note="Geneious type: strand"
      misc_feature    717
                      /note="Geneious type: site"
                      /note="N-linked (GlcNAc...) asparagine; by host.
                      {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    718..728
+                     /note="Geneious type: strand"
      misc_feature    722..728
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    733..736
+                     /note="Geneious type: strand"
      misc_feature    734..736
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    737..743
+                     /note="Geneious type: helix"
+     misc_feature    order(738,760)
+                     /note="Geneious type: disulfide_bond"
      misc_feature    738..743
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    order(743,749)
+                     /note="Geneious type: disulfide_bond"
+     misc_feature    746..755
+                     /note="Geneious type: helix"
+     misc_feature    746..754
+                     /note="Geneious type: helix"
      misc_feature    748..753
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -562,11 +819,19 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    755..759
+                     /note="Geneious type: helix"
+     misc_feature    755..757
+                     /note="Geneious type: helix"
+     misc_feature    758..783
+                     /note="Geneious type: helix"
      misc_feature    758..762
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    760..783
+                     /note="Geneious type: helix"
      misc_feature    763..782
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -577,11 +842,15 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    787..788
+                     /note="Geneious type: strand"
      misc_feature    788..806
                      /note="Geneious type: region of interest"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="Fusion peptide. {ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    788..790
+                     /note="Geneious type: strand"
      misc_feature    791..795
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -632,6 +901,10 @@ FEATURES             Location/Qualifiers
                      recorded"
                      /note="Spike protein S2'.
                      {ECO:0000255|HAMAP-Rule:MF_04099}. /FTId=PRO_0000444082."
+     misc_feature    816..824
+                     /note="Geneious type: helix"
+     misc_feature    816..823
+                     /note="Geneious type: helix"
      misc_feature    817..824
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -657,11 +930,23 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    858..861
+                     /note="Geneious type: strand"
+     misc_feature    866..885
+                     /note="Geneious type: helix"
+     misc_feature    866..884
+                     /note="Geneious type: helix"
      misc_feature    867..883
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    885..890
+                     /note="Geneious type: helix"
+     misc_feature    885..888
+                     /note="Geneious type: helix"
+     misc_feature    886..891
+                     /note="Geneious type: helix"
      misc_feature    887..890
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -671,16 +956,26 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: region of interest"
      misc_feature    896..910
                      /note="Geneious type: Immunogen"
+     misc_feature    897..910
+                     /note="Geneious type: helix"
+     misc_feature    897..908
+                     /note="Geneious type: helix"
      misc_feature    898..909
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    912..919
+                     /note="Geneious type: helix"
+     misc_feature    913..919
+                     /note="Geneious type: helix"
      misc_feature    916..918
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2BEZ}."
+     misc_feature    919..941
+                     /note="Geneious type: helix"
      repeat_region   920..970
                      /experiment="experimental evidence, no additional details
                      recorded"
@@ -691,11 +986,23 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:2BEQ}."
+     misc_feature    942..944
+                     /note="Geneious type: helix"
+     misc_feature    945..965
+                     /note="Geneious type: helix"
      misc_feature    949..993
                      /note="Geneious type: coil"
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000255|HAMAP-Rule:MF_04099}."
+     misc_feature    966..968
+                     /note="Geneious type: helix"
+     misc_feature    976..984
+                     /note="Geneious type: helix"
+     misc_feature    976..983
+                     /note="Geneious type: helix"
+     misc_feature    976..982
+                     /note="Geneious type: helix"
      misc_feature    977..981
                      /note="Geneious type: helix"
                      /experiment="experimental evidence, no additional details
@@ -717,6 +1024,8 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    order(1032,1043)
+                     /note="Geneious type: disulfide_bond"
      misc_feature    1045..1050
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -746,6 +1055,8 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:5X58}."
+     misc_feature    order(1082,1126)
+                     /note="Geneious type: disulfide_bond"
      misc_feature    1084..1086
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -775,6 +1086,10 @@ FEATURES             Location/Qualifiers
                      /experiment="experimental evidence, no additional details
                      recorded"
                      /note="{ECO:0000244|PDB:6CRV}."
+     misc_feature    1116..1120
+                     /note="Geneious type: helix"
+     misc_feature    1116..1118
+                     /note="Geneious type: helix"
      misc_feature    1119..1129
                      /note="Geneious type: strand"
                      /experiment="experimental evidence, no additional details
@@ -793,6 +1108,14 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: Immunogen"
      misc_feature    1137..1145
                      /note="Geneious type: Immunogen"
+     misc_feature    1140..1147
+                     /note="Geneious type: helix"
+     misc_feature    1140..1145
+                     /note="Geneious type: helix"
+     misc_feature    1141..1147
+                     /note="Geneious type: helix"
+     misc_feature    1141..1145
+                     /note="Geneious type: helix"
      misc_feature    1156..1164
                      /note="Geneious type: Immunogen"
      misc_feature    1158
